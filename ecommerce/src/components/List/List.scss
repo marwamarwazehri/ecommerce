@@ -1,0 +1,6 @@
+.list{
+    display: flex;
+    justify-content: space-between;
+   flex-wrap: wrap;/*It defines whether the flex items should wrap or remain on a single line when the 
+   container's width is insufficient to accommodate all the items.*/
+}

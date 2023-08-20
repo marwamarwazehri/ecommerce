@@ -1,0 +1,44 @@
+.contact{
+    background-color: #2879fe;
+    color: white;
+    padding: 15px;
+
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       gap:10rem;
+
+
+      
+
+       .mail{
+
+        input{
+        width:160px;
+        height:35px;
+        font-size:0.80rem;
+        border-radius:5px 0px 0px 5px;
+        border: none;
+        }
+
+        button{
+            width:70px;
+            height: 37px;
+            color: white;
+            background-color: rgb(27, 27, 27);
+            border-radius: 0 5px 5px 0;
+            border: none;
+
+        }
+       }
+
+       .icons{
+        display: flex;
+        gap: 10px;
+       }
+    }
+
+
+}

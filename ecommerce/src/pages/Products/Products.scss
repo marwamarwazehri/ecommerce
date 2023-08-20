@@ -1,0 +1,42 @@
+.products{
+    padding: 30px 50px;
+    display: flex;
+
+
+    .left{
+        flex: 1;
+        position: sticky;
+        height:100% ; /*eza ma 3tyna height lsticky ma btemshe */
+        top: 50px; /* y3ne b3ed ma n2ate3 50px men fo2 so hyda left be seer fixed*/
+
+        .filtterItem{
+            margin-bottom: 30px;
+
+            h2{
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+
+            .inputItem{
+                margin-bottom: 10px;
+
+                label{
+                    margin-left:20px;
+                
+                }
+
+            }
+        }
+    }
+
+    .right{
+        flex: 3;
+
+        .catImg{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            margin-bottom: 50px;
+        }
+    }
+}
